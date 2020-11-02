@@ -1,6 +1,6 @@
 # Description
 
-A PHP boilerplate for a login system
+A PHP boilerplate for login system
 
 `
 Use XAMPP to run this locally
