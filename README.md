@@ -1,6 +1,6 @@
-# PHPLoginSystem
-Simplest form of login system for PHP
+# Description
 
+A PHP boilerplate for a login system
 `
 Use XAMPP to run this locally
 `
