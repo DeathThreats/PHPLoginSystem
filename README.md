@@ -1,6 +1,6 @@
 # PHPLoginSystem &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
 
-PHPLoginSystem is a simple Login System created using PHP and MYSQL with Object Oriented Programming(OOP). It will serve as your 'boilerplate' so you don't have to write the code again and only make changes to its styling.  
+PHPLoginSystem is a simple Login System created using PHP and MYSQL with Object Oriented Programming(OOP). It will serve as your 'boilerplate' so you don't have to write the code again and only make changes to its styling.
 
 ## Prerequisites
 
@@ -14,7 +14,8 @@ PHPLoginSystem is a simple Login System created using PHP and MYSQL with Object 
 * paste the files you got from doing `git clone https://github.com/DeathThreats/PHPLoginSystem.git` and you're good to go!
 
 ## Note
-**It does not contain any styling** - there are two main reason, first, the main purpose is to provide a code that only contains the functionality of a login system. Second is to save time and effort, you will not have to remove my styles and add your own when you implement this in your own application.
+* Only a few important server-side validations are included, feel free to create, modify, delete... the code to fit your needs.
+* **It does not contain any styling** - there are two main reason, first, the main purpose is to provide a code that only contains the functionality of a login system. Second is to save time and effort, you will not have to remove my styles and add your own when you implement this in your own application.
 
 ### License
 
