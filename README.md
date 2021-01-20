@@ -19,8 +19,8 @@ For new XAMPP users the default values of `config.php` is as follows:
 ```php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = ""; // you can name the database whatever you want 
+$password = ""; // leave it as blank
+$dbname = ""; // you can name the database whatever you want
 ```
 
 ## Note
