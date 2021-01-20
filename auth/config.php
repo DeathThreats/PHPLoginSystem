@@ -1,10 +1,10 @@
 <?php
 
 // Create db Connection
-$server_name = "localhost";
-$server_username = "root";
+$server_name = "";
+$server_username = "";
 $server_password = "";
-$dbname = "signinandsignup";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($server_name, $server_username, $server_password, $dbname);
