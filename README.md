@@ -12,7 +12,7 @@ PHPLoginSystem is a simple Login System created using PHP and MYSQL with Object 
 * Head to your browser and type in `localhost` it should display the default page premade by XAMPP
 * Change the content of the page by deleting all files in **htdocs**. It is usually located in `C:\xampp\htdocs`
 * Paste the files you got from doing `git clone https://github.com/DeathThreats/PHPLoginSystem.git`
-* Head over to `localhost/phpmyadmin` and create your own database, and then import my **users.sql**
+* Head over to `localhost/phpmyadmin` and create your own database, then import my **users.sql** table in your database
 
 ## Note
 * Only a few important server-side validations are included, feel free to create, modify, delete... the code to fit your needs.
