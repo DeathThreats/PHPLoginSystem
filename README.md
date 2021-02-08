@@ -29,7 +29,7 @@ $dbname = ""; // you can name the database whatever you want
 
 ### License
 
-PHPLoginSystem is [MIT licensed](./LICENSE).
+PHPLoginSystem is [MIT licensed](./LICENSE)
 
 ### Like what you see?
 
