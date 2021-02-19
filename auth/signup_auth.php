@@ -22,11 +22,11 @@ if(isset($_POST['submit']) AND $_SERVER['REQUEST_METHOD'] == 'POST'){
 
     // This checks if submitted characters matches the format provided within the brackets
     // For more options to the search algorithm of preg_macth() visit https://www.php.net/manual/en/function.preg-match.php
-    } elseif(!preg_match('/^[a-zA-Z ]*$/', $fullname)) {
+    } elseif(!preg_match('/^[a-zA-Z\s]*$/', $fullname)) {
         header("Location: ../signup.php?error=name");
         exit();
 
-    } elseif(!preg_match('/^[a-z0-9\s]*$/', $username)) {
+    } elseif(!preg_match('/^[a-z0-9\S]*$/', $username)) {
         header("Location: ../signup.php?error=username");
         exit();
 
