@@ -40,9 +40,11 @@ if(isset($_POST['submit']) AND $_SERVER['REQUEST_METHOD'] == 'POST'){
 
     } else {
 
+        // Hash password
+        $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
         // Adds values into the database using prepared statement
         $stmt = $conn->prepare("INSERT INTO users (user_fullname, username, user_email, user_password) VALUES (?, ?, ?, ?);");
-        $stmt->bind_param("ssss", $fullname, $username, $email, password_hash($password, PASSWORD_DEFAULT));
+        $stmt->bind_param("ssss", $fullname, $username, $email, $hashedPassword);
         if($stmt->execute()){
                 
             // Redirect to login page after creating new user
